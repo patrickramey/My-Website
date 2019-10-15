@@ -1,24 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Grenze|PT+Sans+Narrow&display=swap');
 
-ul {
-  list-style-type: none;
-  margin: 0;
+:root {
+  --primary1: #000000;
+  --primary2: #751aff;
+  --secondary11: #ffffff;
+  --secondary21: #800000;
+  --textLight: white;
+  --textDark: black;
+  --paragraphtext: 'PT Sans Narrow', Sans-Serif;
+  --headingtext: Grenze ,Sans-Serif;
+  --navigationtext: Acme , Sans-Serif;
+}
+
+* {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 80%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  grid-gap: 20px;
+}
+
+body * {
+  font-family: var(--paragraphtext);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headingtext);
+}
+.sr-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
-  background-color: black;
 }
 
-li {
-  float: left;
+header {
+  grid-area: header;
+  background-color: var(--primary1);
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+nav{}
+
+
+.main-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main-nav a{
   text-decoration: none;
+  font-size: 2em;
+  color: var(--textLight)
+  font-family: var(--navigationtext);
 }
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: violet;
