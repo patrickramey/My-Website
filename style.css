@@ -35,7 +35,7 @@ body {
 
 body * {
   font-family: var(--paragraphtext);
-
+color: white;
 }
 
 body {
@@ -44,9 +44,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingtext);
-}
-h1{
   color: white;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 }
 
 .sr-only {
