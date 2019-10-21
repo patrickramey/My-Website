@@ -44,13 +44,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingtext);
-  color: white;
+  color: #FFFFFF;
+text-shadow: 2px 2px 0 #751aff, 2px -2px 0 #751aff, -2px 2px 0 #751aff, -2px -2px 0 #751aff, 2px 0px 0 #751aff, 0px 2px 0 #751aff, -2px 0px 0 #751aff, 0px -2px 0 #751aff;
 }
 
-h1 {
-  color: #FFFFFF;
-  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
-}
 
 .sr-only {
   position: absolute;
