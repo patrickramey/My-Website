@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Grenze|PT+Sans+Narrow&display=swap');
 
 :root {
-  --primary1: ;
-  --primary2: ;
-  --secondary11: ;
-  --secondary21: ;
+  --primary1: #FF2400;
+  --primary2: #b5b5b5;
+  --secondary11: #FFFFFF;
+  --secondary21: #000000;
   --textLight: white;
   --textDark: black;
   --paragraphtext: 'PT Sans Narrow', Sans-Serif;
@@ -38,8 +38,9 @@ body * {
 color: white;
 }
 
-body {
-  background-color: black;
+body{
+  background-image: url("gradient-OH.jpg");
+  background-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,7 +80,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: var(--primary2);
 }
 
 li {
@@ -97,9 +98,5 @@ li {
 }
 
 li a:hover {
-  background-color: purple;
-}
-
-.active {
-  background-color: purple;
+  background-color: var(--primary1);
 }
