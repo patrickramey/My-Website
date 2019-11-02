@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Grenze|PT+Sans+Narrow&display=swap');
 
 :root {
-  --primary1: #FF2400;
-  --primary2: #b5b5b5;
-  --secondary11: #FFFFFF;
-  --secondary21: #000000;
-  --textLight: white;
-  --textDark: black;
   --paragraphtext: 'PT Sans Narrow', Sans-Serif;
   --headingtext: Grenze ,Sans-Serif;
   --navigationtext: Acme , Sans-Serif;
@@ -35,12 +29,12 @@ color: white;
 }
 
 body {
-  background-color: var(--secondary21);
+  background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingtext);
-  color: #FFFFFF;
+  color: White;
   text-shadow: 2px 2px 0 #FF2400, 2px -2px 0 #FF2400, -2px 2px 0 #FF2400, -2px -2px 0 #FF2400, 2px 0px 0 #FF2400, 0px 2px 0 #FF2400, -2px 0px 0 #FF2400, 0px -2px 0 #FF2400;
 }
 
@@ -76,7 +70,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--primary2);
+  background-color: black;
 }
 
 li {
@@ -94,6 +88,6 @@ li {
 }
 
 li a:hover {
-  background-color: var(--primary1);
+  background-color: Purple;
 }
 /* Navigation end */
