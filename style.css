@@ -29,7 +29,11 @@ color: white;
 }
 
 body {
+<<<<<<< Updated upstream
   background-color: black;
+=======
+  background-image: image("gradient-OH.jpg");
+>>>>>>> Stashed changes
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +74,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+<<<<<<< Updated upstream
   background-color: black;
+=======
+  background-color: var(primary2);
+>>>>>>> Stashed changes
 }
 
 li {
