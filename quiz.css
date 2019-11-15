@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Start of Header */
+header {
+  background-color: red;
+}
+/* End of Header */
+
+
+/* Start of footer */
+footer {
+  background-color: red;
+}
+/* End of Footer */
+
+
+/* Start of Heading tags */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+/* End of Heading Tags */
+
+
+/* Start of sections */
+section {
+  border-style: solid;
+  boeder-width: 4px;
+}
+
+.section1 {
+  background-color: green;
+}
+
+.section2 {
+  background-color: blue;
+}
+
+.section3 {
+  background-color: orange;
+}
+/* End of Sections */
+
+
+/* Start of Body */
+body {
+  width: 100vw;
+  height: 200vh;
+  display: grid;
+  grid-template-rows: 100px 1fr 80px;
+}
+/* End of body */
+
+
+/* Start of Main */
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+}
