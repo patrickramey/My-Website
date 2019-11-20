@@ -113,10 +113,7 @@ li a:hover {
 }
 /* Navigation end */
 
-/* image start */
-img {
-  align-items: center;
-}
+
 
 
 
@@ -128,7 +125,6 @@ section {
 }
 
 .section2 {
-  display: grid;
-
-
+  grid-area: main;
+  align-items: center;
 }
