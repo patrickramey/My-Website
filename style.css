@@ -17,6 +17,8 @@
   margin: 0;
 }
 
+
+/* Start of body */
 body {
 
 }
@@ -29,7 +31,11 @@ color: var(--secondary11);
 body {
   background-color: var(--primary1);
 }
+/* end of body */
 
+
+
+/* start of heading tags */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headingtext);
   color: var(secondary11);
@@ -45,12 +51,13 @@ h1 {
 h2{
   font-size: 40px;
 }
+/* end of heading tags */
 
-
+/* start of paragraph tags */
 p {
   font-size: 20px;
 }
-
+/* end of paragraph tags */
 
 
 
@@ -69,12 +76,10 @@ header {
 }
 
 main {
-  grid-area: main;
+  display: grid;
 }
 
-aside {
-  grid-area: aside;
-}
+
 
 footer {
   grid-area: footer;
@@ -108,7 +113,22 @@ li a:hover {
 }
 /* Navigation end */
 
-/* Image Start */
-{
+/* image start */
+img {
+  align-items: center;
+}
+
+
+
+
+
+/* Sections start */
+section {
+  display: grid;
+}
+
+.section2 {
+  display: grid;
+
 
 }
