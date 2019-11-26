@@ -19,9 +19,7 @@
 
 
 /* Start of body */
-body {
 
-}
 
 body * {
   font-family: var(--paragraphtext);
@@ -29,8 +27,11 @@ color: var(--secondary11);
 }
 
 body {
+
   background-color: var(--primary1);
 }
+
+
 /* end of body */
 
 
@@ -77,6 +78,8 @@ header {
 
 main {
   display: grid;
+  grid-template-rows: 25% 75%;
+
 }
 
 
@@ -120,11 +123,6 @@ li a:hover {
 
 
 /* Sections start */
-section {
-  display: grid;
-}
-
 .section2 {
-  grid-area: main;
-
+padding: 0px 28vw;
 }
