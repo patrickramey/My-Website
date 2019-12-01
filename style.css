@@ -82,6 +82,12 @@ main {
 
 }
 
+.main2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  ;
+
+}
 
 
 footer {
@@ -124,5 +130,5 @@ li a:hover {
 
 /* Sections start */
 .section2 {
-padding: 0px 28vw;
+padding: 0px 33vw;
 }
