@@ -85,7 +85,7 @@ main {
 .main2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:  ;
+  grid-template-rows: 13% 87% ;
 
 }
 
@@ -131,4 +131,16 @@ li a:hover {
 /* Sections start */
 .section2 {
 padding: 0px 33vw;
+}
+
+.section4 {
+  position: absolute;
+  top: 250px;
+  
+}
+
+.section6 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
 }
