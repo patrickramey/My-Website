@@ -56,7 +56,7 @@ h2{
 
 /* start of paragraph tags */
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
 /* end of paragraph tags */
 
@@ -91,7 +91,8 @@ main {
 
 .main3 {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 
@@ -158,6 +159,19 @@ padding: 0px 33vw;
   left: 900px;
 }
 
+.section7 {
+  position: absolute;
+  left: 715px
+}
+
 .section8 {
   position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.section9 {
+  position: absolute;
+  top: 150px;
+  left: 700px;
 }
