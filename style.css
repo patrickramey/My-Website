@@ -95,7 +95,11 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-
+.main4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
 
 
 footer {
@@ -174,4 +178,27 @@ padding: 0px 33vw;
   position: absolute;
   top: 150px;
   left: 700px;
+}
+
+.section10 {
+  position: absolute;
+  left: 533px;
+}
+
+.section11 {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+
+.section12 {
+  position: absolute;
+  top: 375px;
+  left: 200px;
+}
+
+.section13 {
+  position: absolute;
+  top: 250px;
+  left: 1000px;
 }
