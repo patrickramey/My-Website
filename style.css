@@ -60,8 +60,9 @@ p {
 }
 /* end of paragraph tags */
 
-
-
+/* start of links */
+a {
+}
 .sr-only {
   position: absolute;
   top: auto;
