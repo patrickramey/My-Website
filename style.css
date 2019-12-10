@@ -19,8 +19,6 @@
 
 
 /* Start of body */
-
-
 body * {
   font-family: var(--paragraphtext);
 color: var(--secondary11);
@@ -30,8 +28,6 @@ body {
 
   background-color: var(--primary1);
 }
-
-
 /* end of body */
 
 
@@ -54,29 +50,26 @@ h2{
 }
 /* end of heading tags */
 
+
+
+
 /* start of paragraph tags */
 p {
   font-size: 25px;
 }
 /* end of paragraph tags */
 
-/* start of links */
-a {
-}
-.sr-only {
-  position: absolute;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
 
+
+
+/* Sart of Header */
 header {
   grid-area: header;
-
-
 }
+/* end of header */
 
+
+/* start of main */
 main {
   display: grid;
   grid-template-rows: 25% 75%;
@@ -101,11 +94,15 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
+/* end of main */
 
 
+/* start of footer */
 footer {
   grid-area: footer;
 }
+/* end of footer */
+
 
 /* Navigation Start*/
 ul {
@@ -134,11 +131,6 @@ li a:hover {
   background-color: var(--primary2);
 }
 /* Navigation end */
-
-
-
-
-
 
 
 /* Sections start */
@@ -202,4 +194,10 @@ padding: 0px 33vw;
   position: absolute;
   top: 250px;
   left: 1000px;
+}
+
+.section14 {
+  position: absolute;
+  top: 350px;
+  left: 715px;
 }
