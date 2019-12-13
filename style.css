@@ -33,7 +33,7 @@ body {
 
 
 /* start of heading tags */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: var(--headingtext);
   color: var(secondary11);
   text-shadow: 4px 3px 0 var(--primary2);
@@ -45,8 +45,14 @@ h1 {
 }
 
 
-h2{
+h2 {
   font-size: 40px;
+}
+
+
+h3 {
+  font-size: 15px;
+  font-family: var(--paragraphtext)
 }
 /* end of heading tags */
 
@@ -98,9 +104,7 @@ main {
 
 
 /* start of footer */
-footer {
-  grid-area: footer;
-}
+
 /* end of footer */
 
 
@@ -174,30 +178,11 @@ padding: 0px 33vw;
 }
 
 .section10 {
-  position: absolute;
-  left: 533px;
-}
 
-.section11 {
-  position: absolute;
-  top: 250px;
-  left: 400px;
 }
 
 .section12 {
   position: absolute;
   top: 375px;
   left: 200px;
-}
-
-.section13 {
-  position: absolute;
-  top: 250px;
-  left: 1000px;
-}
-
-.section14 {
-  position: absolute;
-  top: 350px;
-  left: 715px;
 }
