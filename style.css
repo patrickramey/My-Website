@@ -104,7 +104,9 @@ main {
 
 
 /* start of footer */
-
+footer {
+  grid-area: footer; 
+}
 /* end of footer */
 
 
