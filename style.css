@@ -105,7 +105,7 @@ main {
 
 /* start of footer */
 footer {
-  grid-area: footer; 
+  grid-area: footer;
 }
 /* end of footer */
 
@@ -187,4 +187,9 @@ padding: 0px 33vw;
   position: absolute;
   top: 375px;
   left: 200px;
+}
+
+.section13 {
+  position: absolute;
+  
 }
